@@ -5,7 +5,7 @@
         public int Id { get; set; }
         public string Name { get; set; }
         public string Bio { get; set; }
-
+        public string MPIPID { get; set; }
         public IEnumerable<Chicken> Chickens { get; set; }
     }
 }
